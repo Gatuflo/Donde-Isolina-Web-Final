@@ -5,12 +5,12 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body, html {
-    background-color: rgb(255, 255, 255);
+body {
+    background-image: url(/img/barriles%20color%20para%20fondo.png) !important;
 }
 
 .navbar-brand img {
-    width: 20vw;
+    width: 8vw;
 }
 
 .imagen img{
@@ -21,6 +21,18 @@ body, html {
 .titulo {
     font-size: 8vw;
     text-align: center;
+}
+
+.cuerpo_titulo {
+    background-color: rgba(221, 119, 51, 0.356);
+    width: 100vw;
+    height: 5vw;
+    text-align: center;
+}
+
+.titulo_empresa {
+    margin: 0vw;
+    font-size: 3vw; 
 }
 
 .grid {
@@ -39,11 +51,20 @@ body, html {
     border-radius: 1.6vw;
 }
 
+.contenedor1 h3 {
+    text-align: center;
+}
+
 .contenedor1 p {
     margin: 0.5vw;
     text-align: justify;
     font-size: 0.9vw;
-    color: rgb(226, 214, 214);
+    color: rgb(253, 253, 253);
 }
 
-
+.color_letra {
+    color: rgb(22, 21, 21);
+    text-decoration: none;
+    border-radius: 0.5vw;
+    background: rgba(184, 103, 37, 0.733);
+}
