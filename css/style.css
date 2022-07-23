@@ -19,20 +19,21 @@ body {
 }
 
 .titulo {
-    font-size: 8vw;
+    font-size: 5vw;
     text-align: center;
+    background-color: rgba(221, 119, 51, 0.356);
+    transition: 2s;
 }
 
 .cuerpo_titulo {
-    background-color: rgba(221, 119, 51, 0.356);
-    width: 100vw;
-    height: 5vw;
     text-align: center;
+    background-color: rgba(221, 119, 51, 0.356);
 }
 
 .titulo_empresa {
-    margin: 0vw;
-    font-size: 3vw; 
+    font-size: 5vw; 
+    text-align: center;
+    transition: 2s;
 }
 
 .grid {
@@ -68,3 +69,72 @@ body {
     border-radius: 0.5vw;
     background: rgba(184, 103, 37, 0.733);
 }
+
+.productos {
+    text-align: center;
+    margin: 4vw;
+    width: 1fr;
+}
+
+.productos img {
+    width: 20vw;
+    height: 20vw;
+}
+
+.productos h3 {
+    font-size: 1.7em;
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+}
+
+.subtitulo {
+    text-align: left;
+    margin: 2vw;
+    padding: 2vw;
+}
+
+.card {
+    border-radius: 2vw;
+    background-color: white;
+    box-shadow: 0 1vw 3vw rgba(0,0,0,0.12), 0 1vw 2vw rgba(0,0,0,0.24);
+}
+
+.grid_servicios {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    margin: 5vw;
+    grid-gap: 4vw;
+}
+
+.contenedor2 {
+    background-color: rgba(148, 110, 28, 0.712);    
+    width: 90vw;
+    height: 30vw;
+    border-radius: 1.6vw;
+}
+
+.contenedor2 h3 {
+    text-align: center;
+}
+
+.contenedor2 p {
+    margin: 0.5vw;
+    text-align: justify;
+    font-size: 2vw;
+    color: rgb(11, 11, 11);
+}
+
+.header {
+    color: #bd6d34;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #bd6d34;;
+}
+
+
+
